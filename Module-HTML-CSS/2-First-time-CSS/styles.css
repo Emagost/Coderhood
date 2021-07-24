@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    height: 300px;
+}
+body {
+    background-color: black;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+main{
+    padding: 50px;
+}
+#header{
+    color:black;
+    padding: 3px 35px 3px 50px;
+    background-color:slateblue;
+    align-items: center;
+    display:flex;
+    justify-content:space-between;
+    margin:0px;
+}
+#title{
+    color:white;
+    font-weight: bolder;
+}
+#lista{
+    width:20%;
+    font-weight: 600;
+    list-style: none;
+    justify-content: space-between;
+    display:flex;
+}
+#main-1{
+    display:flex;
+    height:50vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#bienvenido{
+    display:inline-flex;
+    width: 400px;
+}
+#perritos{
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#main-2{
+    height:25vh;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+#sumate{
+    font-weight: 900;
+    font-size:30px;
+    margin-right: 10px;
+}
+#discord{
+    background-color:orangered;
+    border-radius:2px;
+    padding:2px;
+    margin-right:3px;
+}
+#main-3{
+    background-image: url("https://www.semana.com/resizer/2sar7iLFSpoiknWkhUh-sAFwKDM=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/RE55ORS5VRHPPLSJPA5LA3PBKY.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:60vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+#caja-negra{
+    border-radius: 5px;
+    width:600px;
+    font-size:60px;
+    height:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.7 );
+}
+#footer{
+    background-color:slateblue;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-weight: bolder;
+}
